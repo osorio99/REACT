@@ -1,5 +1,6 @@
 
 import { Header } from '../../layauts/Header/Header'
+import { Footer } from '../../layauts/Footer/Footer'
 export const Home = () => {
   return (
    <>
@@ -7,7 +8,7 @@ export const Home = () => {
 
     <main></main>
 
-    <footer></footer>
+    <Footer/>
    </>
   )
 }
