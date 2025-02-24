@@ -1,0 +1,12 @@
+body, #root{
+  width: 98vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  background-color: #3f1111;
+  color: #000000;
+}
+
