@@ -1,15 +1,16 @@
 
-import { Header } from '../../layauts/Header/Header'
-import { Footer } from '../../layauts/Footer/Footer'
+// import { Header } from '../../layauts/Header/Header'
+// import { Footer } from '../../layauts/Footer/Footer'
 import {Section} from '../../layauts/Section/Section'
 export const Home = () => {
   return (
    <>
-    <Header />
+  
 
     <main></main>
     <Section/>
-    <Footer/>
+    
+    
    </>
   )
 }
