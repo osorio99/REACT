@@ -1,9 +1,16 @@
-import { Navbar } from "../Nav.jsx/Navbar"
-
+import { ItemNavbar } from "../../componets/ItemNavbar";
+import { FaFacebook ,FaInstagram } from "react-icons/fa";
+import "./Footer.css"
 export const Footer = () => {
   return (
-    <footer>
-      <Navbar/>
+    <footer className="footer">
+      <ul>
+        <ItemNavbar contentItem={<FaFacebook />}  />
+        {/* <ItemNavbar contentItem={<AiOutlineWhatsApp />}  /> */}
+        <ItemNavbar contentItem={<FaInstagram />}  />
+       
+      </ul>
+      
       </footer>
   )
 }

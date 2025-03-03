@@ -2,11 +2,11 @@ import {ItemNavbar } from "../../componets/ItemNavbar"
 
 
 import "./Navbar.css"
-export const Navbar = () => {
+export const Navbar = ({children}) => {
   return (
     <nav className="Navbar">
           <ul>
-           <ItemNavbar
+           {/* <ItemNavbar
              myStyles="text-white fond-bold m-2 hover:text-sky-400 hover:underline"
              contentItem="home"
            />
@@ -18,7 +18,9 @@ export const Navbar = () => {
               myStyles="text-white fond-bold m-2 hover:text"
               contentItem="item"
            />
-           
+            */}
+
+            {children}
            </ul>
     </nav>
   )
